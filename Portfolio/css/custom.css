@@ -4,18 +4,94 @@
 }
 
 
-/* Add hover effect */
-.section-home:hover {
-    background-color: rgba(0, 0, 0, 0.8); /* Change background color on hover */
-    transition: background-color 0.3s ease; /* Smooth transition */
+
+
+
+
+
+.section-home .overlay-wrap span {
+    color: #ffcc00; /* Highlighted color for the span */
+    transition: color 0.3s ; /* Smooth transition for hover */
 }
 
-.section-home:hover h1 {
-    color: #ffcc00; /* Change text color on hover */
-    transition: color 0.3s ease; /* Smooth transition */
+.section-home .overlay-wrap h1 {
+    font-weight: bold;
+    color: white;
+    transition: color 0.3s ; /* Smooth transition for hover */
 }
 
-.section-home:hover span {
-    color: #ffcc00; /* Change span text color on hover */
-    transition: color 0.3s ease; /* Smooth transition */
+/* Hover effect for text only */
+.section-home .overlay-wrap span:hover,
+.section-home .overlay-wrap h1:hover {
+    color: #ff5733; /* Change text color on hover */
+    transition: color 0.3s ease; /* Smooth transition for hover */
+}
+/* Move text content slightly to the right */
+.section-home .overlay-wrap {
+    padding-left: 50px; /* Adjust this value to move the text further right */
+}
+
+/* Hover effect for social media icons */
+.about-desc-social li a {
+    color: inherit; /* Keep the original color */
+    transition: color 0.3s ease; /* Smooth transition for hover */
+}
+.about-desc-social li a:hover {
+    color: rgb(195, 254, 0) !important;
+}
+
+.about-desc-social li a:hover i {
+    color: white !important;
+}
+
+/* Change text color to white on hover */
+.mt-4.font-weight-light:hover {
+    color: white;
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.about-me:hover{
+    color: turquoise;
+    cursor: pointer;
+
+
+}
+
+/* Add hover effect and pointer cursor for resume links */
+.resume-list a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit text color */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    display: block; /* Ensure the link covers the entire block */
+}
+
+.resume-list a:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+    cursor: pointer; /* Change cursor to pointer */
+}
+/* Ensure hover effect for text inside resume links */
+.resume-list a:hover h5,
+.resume-list a:hover h6,
+.resume-list a:hover p {
+    color: #f6f4f4 !important; /* Change text color to a visible color on hover */
+    transition: color 0.3s ease; /* Smooth transition for hover */
+}
+
+/* Increase the size of testimonial images */
+.single-testimonials-in img {
+    width: 400px; /* Increased width */
+    height: 200px; /* Increased height */
+    max-width: 100%; /* Ensure responsiveness */
+    margin: 0 auto; /* Center the image */
+}
+
+/* Add pointer cursor for clickable images */
+.single-testimonials-in a img {
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.single-testimonials-in a img:hover {
+    transform: scale(1.05); /* Slightly enlarge the image on hover */
 }
