@@ -1,0 +1,21 @@
+.single-testimonials-in img {
+    width: 300px !important; /* Force the width */
+    height: auto !important; /* Maintain aspect ratio */
+}
+
+
+/* Add hover effect */
+.section-home:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Change background color on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.section-home:hover h1 {
+    color: #ffcc00; /* Change text color on hover */
+    transition: color 0.3s ease; /* Smooth transition */
+}
+
+.section-home:hover span {
+    color: #ffcc00; /* Change span text color on hover */
+    transition: color 0.3s ease; /* Smooth transition */
+}
