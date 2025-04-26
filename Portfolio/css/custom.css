@@ -95,3 +95,43 @@
 .single-testimonials-in a img:hover {
     transform: scale(1.05); /* Slightly enlarge the image on hover */
 }
+
+/* Hover effect for resume-list <p> text */
+.resume-list:hover p {
+    color: #e9e9e9; /* Change to your desired color */
+    transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+/* Hover effect for text inside resume-list */
+.resume-list:hover h5,
+.resume-list:hover h6,
+.resume-list:hover p {
+    color: white; /* Change text color to white on hover */
+    transition: color 0.3s ease; /* Smooth transition effect */
+}
+/* Hover effect for project descriptions */
+.blog-list:hover p,
+.blog-list:hover span,
+.blog-list:hover .blog-by {
+    color: white !important; /* Change text color to white on hover */
+    transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+blog-list--desc p-3:hover{
+    color: white !important;
+}
+
+/* Hover effect for blog-list descriptions */
+.blog-list:hover .blog-list--desc p,
+.blog-list:hover .blog-list--desc span {
+    color: white !important; /* Change text color to white on hover */
+    transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+/* Hover effect for project descriptions */
+.blog-list:hover .blog-list--desc p,
+.blog-list:hover .blog-list--desc span,
+.blog-list:hover .blog-by {
+    color: white !important; /* Change text color to white on hover */
+    transition: color 0.3s ease; /* Smooth transition effect */
+}
